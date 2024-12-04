@@ -1,5 +1,7 @@
 package Sychronized_Method;
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Count count = new Count();
@@ -14,10 +16,13 @@ public class Main {
 
         // join helps to wait the main thread, till t1 and t2 completes its work
 
-        t1.join();
-        t2.join();
+//        t1.join();
+//        t2.join();
 
         // main thread --> print statement will execute once both the threads completes its work
         System.out.println(count.getValue());
+
+
+
     }
 }
