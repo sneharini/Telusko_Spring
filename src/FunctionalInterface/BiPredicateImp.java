@@ -13,4 +13,3 @@ public class BiPredicateImp implements BiPredicate<String, Integer> {
         return s.length() > integer;
     }
 }
-s

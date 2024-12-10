@@ -18,5 +18,11 @@ public class Main {
             }
         };
         System.out.println(biPredicate2.test("Harini", 10));
+
+        // way3 - Lambdas
+        // () -> input parameters
+        // {} -> implementations
+        BiPredicate<String, Integer> biPredicate3 = (str, integer) -> str.length() > integer;
+        System.out.println(biPredicate3.test("netflix" , 5));
     }
 }
