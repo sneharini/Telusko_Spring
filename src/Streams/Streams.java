@@ -3,6 +3,7 @@ package Streams;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Vector;
 
 public class Streams {
     public static void main(String[] args) {
@@ -43,9 +44,9 @@ public class Streams {
         3. Every element will be passed to the filter as an input.
         4. If the condition of filter method return true, then that element will be taken in the output.
         5. Else that element is ignored.
-
-
          */
+
+
 
 
 
