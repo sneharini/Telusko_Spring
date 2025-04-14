@@ -13,6 +13,10 @@ public class Client {
             int x = scanner.nextInt();
             int y = scanner.nextInt();
 
+            if(y == 0){
+                throw new WrongInputPassedException("My own exception");
+            }
+
             System.out.println(x / y);
 
             File file = new File("filename");
@@ -27,6 +31,10 @@ public class Client {
         }
         catch(Exception e){
             System.out.println("Got general exception");
+        }
+
+        finally {
+            System.out.println("finally block");
         }
 
         System.out.println("After all the catch blocks");

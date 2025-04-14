@@ -1,9 +1,7 @@
 package Streams;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
+import java.util.stream.DoubleStream;
 
 public class Streams {
     public static void main(String[] args) {
@@ -47,6 +45,19 @@ public class Streams {
          */
 
 
+//        public void frequencySort(int[] nums) {
+//            Map<Integer, Integer> map = new HashMap<>();
+//
+//            Arrays.stream(nums).forEach(n -> map.put(n, map.getOrDefault(n, 0)+1));
+//
+//           // return Arrays.stream(nums)
+////                    .boxed()
+////                    .sorted((a, b) -> map.get(a) == map.get(b) ? b - a : map.get(a) - map.get(b))
+////                    .mapToInt(n -> n)
+////                    .toArray();
+//        }
+
+
 
 
 
@@ -55,4 +66,6 @@ public class Streams {
 
 
     }
+
+   
 }
